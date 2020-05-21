@@ -1,0 +1,583 @@
+From liam.fleet at ukservers.com  Sun May  3 07:15:12 2020
+From: liam.fleet at ukservers.com (Liam Fleet)
+Date: Sun, 3 May 2020 08:15:12 +0100 (BST)
+Subject: [CentOS-mirror] New server mirror.cov.ukservers.com
+Message-ID: <1837964424.1045919.1588490112011.JavaMail.zimbra@ukservers.com>
+
+HTTP: http://mirror.cov.ukservers.com/centos/ 
+
+Sync schedule: Every 6 hrs 
+Bandwidth: 10gbps 
+Location: (For U.S. and Canada: also mention the state/province) 
+Sponsor: UK Dedicated Servers 
+Sponsor URL: https://www.ukservers.com/ 
+IPv4 address to authorize: 94.229.65.150 
+Email contact: noc at ukservers.com 
+Mirroring AltArch: no 
+
+-- 
+Liam Fleet 
+UK Dedicated Servers Limited 
+0800 610 1 620 
+www.ukservers.com 
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.centos.org/pipermail/centos-mirror/attachments/20200503/bd1cb1d0/attachment.html>
+
+From arrfab at centos.org  Mon May  4 06:56:48 2020
+From: arrfab at centos.org (Fabian Arrotin)
+Date: Mon, 4 May 2020 08:56:48 +0200
+Subject: [CentOS-mirror] New CentOS distribution mirror
+In-Reply-To: <5E975D12.90002@serverbuddies.com>
+References: <5E961FE3.20403@serverbuddies.com>
+ <5E975D12.90002@serverbuddies.com>
+Message-ID: <66049b73-0601-175d-14e4-e4c8b30cd5cb@centos.org>
+
+On 15/04/2020 21:14, Nick - ServerBuddies Support wrote:
+> Hello guys,
+> 
+> I believe I didn't send the right template to you guys, I'm sorry about
+> that. Please find below the required information for adding my mirror:
+> 
+> HTTP: http://mirroir.wptheme.fr/centos/
+> HTTPS: https://mirroir.wptheme.fr/centos/
+> RSYNC: rsync://mirroir.wptheme.fr/centos/
+> 
+> Sync schedule: Every 12 hrs
+> Bandwidth: 100Mbit/s
+> Location: France
+> Sponsor: WPTheme
+> Sponsor URL: http://wptheme.fr
+> IPv4 address to authorize: 91.121.103.94
+> IPv6 address to authorize: 
+> Email contact: nick at serverbuddies.com
+> Mirroring AltArch: no
+> 
+> 
+> Thank you!
+> 
+> Kind Regards,
+> 
+> SB-Nick.
+> Senior System and Network Administrator.
+> Solutions Architect.
+> 
+> http://www.serverbuddies.com
+> Technical Support Manager
+> 
+> Nick at serverbuddies.com
+> 
+> Providing Dedicated Server Solutions Just a Click AWAY!
+> -----------------------------------------------------------
+> 
+> 
+> 
+> Nick - ServerBuddies Support wrote:
+>> Greetings,
+>>
+>> We would like to donate a new CentOS mirror for the CentOS community,
+>> please find below the mirror information:
+>>
+>> URL of mirror: https://mirroir.wptheme.fr/centos
+>> <https://mirroir.wptheme.fr>
+>> Country where the mirror is located: France
+>> Update frequency: 2 times per day
+>> Rsync repository used: ftp.pasteur.fr
+>> I use these rsync options: -avSH --delete
+>> At the moment, I rsync from this IP address: 91.121.103.94
+>>
+>> I am checking the output from the rsync job on a regular basis.
+>>
+>> Thank you!
+>>
+>> Nick Leonel
+> 
+
+Thanks !
+
+Your mirror http://mirroir.wptheme.fr/centos/ has been added to the
+mirrors DB
+It will be listed as a public mirror (and on
+https://mirror-status.centos.org /
+https://www.centos.org/download/mirrors/ ) in the following minutes/hours.
+Your IP address[es] (91.121.103.94 ) has/have been added in the ACL and
+so you should be able to rsync from msync.centos.org in the next ~10min
+
+Kind Regards,
+
+-- 
+Fabian Arrotin
+The CentOS Project | https://www.centos.org
+gpg key: 17F3B7A1 | twitter: @arrfab
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 833 bytes
+Desc: OpenPGP digital signature
+URL: <http://lists.centos.org/pipermail/centos-mirror/attachments/20200504/26edf5ce/attachment.sig>
+
+From arrfab at centos.org  Mon May  4 06:59:14 2020
+From: arrfab at centos.org (Fabian Arrotin)
+Date: Mon, 4 May 2020 08:59:14 +0200
+Subject: [CentOS-mirror] CentOS-mirror Digest, Vol 182, Issue 21
+In-Reply-To: <181631588198461@mail.yandex.com.tr>
+References: <181631588198461@mail.yandex.com.tr>
+Message-ID: <f22c19cf-8adf-5039-bf11-4f2214143439@centos.org>
+
+On 30/04/2020 00:19, Yasin YILMAZ wrote:
+> Hello, Thank you for processing and adding mirrors DB. However, when I
+> check it, rsync: //mirror.provider.com.tr/centos/ is not listed in the
+> link https://www.centos.org/download/mirrors/.
+> 
+> and likewise the rsync link
+> https://www.centos.org/download/altarch-mirrors/ is not listed in this
+> section either.
+> 
+> ?
+
+It seems you don't even read our reply ? just checked above what I said
+(and so also on mail achives :
+https://lists.centos.org/pipermail/centos-mirror/2020-April/024210.html)
+
+Have you fixed it ? (doesn't seem so)
+
+
+> 
+> ------------------------------
+> 
+> Message: 7
+> Date: Tue, 28 Apr 2020 08:58:46 +0200
+> From: Fabian Arrotin <arrfab at centos.org <mailto:arrfab at centos.org>>
+> To: centos-mirror at centos.org <mailto:centos-mirror at centos.org>
+> Subject: Re: [CentOS-mirror] Revised2: New CentOS Public Mirror
+> ????????(PROVIDER DATA CENTER SERVICES) (Yasin YILMAZ)
+> Message-ID: <ba08ec17-1fd1-5c38-7bd3-9038fea4e395 at centos.org
+> <mailto:ba08ec17-1fd1-5c38-7bd3-9038fea4e395 at centos.org>>
+> Content-Type: text/plain; charset="utf-8"
+> 
+>     *Yasin YILMAZ*20 nis 14:24
+>     ?HTTP: http://mirror.provider.com.tr/centos/
+>     ?HTTPS: https://mirror.provider.com.tr/centos/
+>     ?RSYNC: rsync://mirror.provider.com.tr/centos/
+> 
+>     ?Sync schedule: Every 12 hrs
+>     ?Bandwidth: 250Mbps
+>     ?Location: Turkey/Istanbul
+>     ?Sponsor: PROVIDER DATA CENTER SERVICES
+>     ?Sponsor URL: https://provider.com.tr <https://provider.com.tr/>
+>     ?IPv4 address to authorize: 45.147.17.254
+>     ?IPv6 address to authorize: none
+>     ?Email contact: info at provider.com.tr <mailto:info at provider.com.tr>
+>     <mailto:info at provider.com.tr <mailto:info at provider.com.tr>>
+> 
+>     ?Mirroring AltArch: yes
+>     ?HTTP: http://mirror.provider.com.tr/centos-altarch
+>     ?HTTPS: https://mirror.provider.com.tr/centos-altarch
+>     ?RSYNC: rsync://mirror.provider.com.tr/centos-altarch
+>     ?
+> 
+> Thanks !
+> 
+> Worth knowing that rsync doesn't work, so can you investigate/fix and
+> report here when working ? In the meantime :
+> 
+> Your mirror http://mirror.provider.com.tr/centos/ has been added to the
+> mirrors DB
+> It will be listed as a public mirror (and on
+> https://mirror-status.centos.org <https://mirror-status.centos.org/> /
+> https://www.centos.org/download/mirrors/ ) in the following minutes/hours.
+> Your IP address[es] (45.147.17.254 ) has/have been added in the ACL and
+> so you should be able to rsync from msync.centos.org in the next ~10min
+> 
+> Kind Regards,
+> 
+> ?
+> --?
+> 	
+> Yasin YILMAZ
+> Sistem ve Teknik Sorumlu
+> *T :*?+90?850 255 23 44?(PBX) -?*F :*?0216 706 23 44?-?*WA :*?0216 706 23 44
+> *Merkez :*?Sapanba?lar? Mh. T?naztepe Sk. No: 8/21 34893 Pendik/?stanbul
+> - T?rkiye
+> *MailScanner has detected a possible fraud attempt from
+> "provider.com.trhttps" claiming to be* https://provider.com.tr
+> 
+> https://venov.com.tr <https://provider.com.trhttps//venov.com.tr>
+> 
+> https://hs.net.tr
+> Bu e-posta ve ekleri PROVIDER DATA CENTER SERVICES?taraf?ndan
+> g?nderildi?i ki?i ya da kuruma ?zel ve gizlidir. Hi? bir ?ekilde ???nc?
+> ki?ilere a??klanamaz ve yay?nlanamaz. Mesaj?n yetkili al?c?s? de?ilseniz
+> hi? bir k?sm?n? kopyalayamaz, ba?kas?na g?nderemez ya da hi? bir ?ekilde
+> kullanamazs?n?z. E?er mesaj?n yetkili al?c?s? veya yetkili al?c?s?na
+> iletmekten sorumlu ki?i siz de?ilseniz, l?tfen mesaj? sisteminizden
+> siliniz ve g?ndereni uyar?n?z.
+> 
+> ?
+> 
+> _______________________________________________
+> CentOS-mirror mailing list
+> CentOS-mirror at centos.org
+> https://lists.centos.org/mailman/listinfo/centos-mirror
+> 
+
+
+-- 
+Fabian Arrotin
+The CentOS Project | https://www.centos.org
+gpg key: 17F3B7A1 | twitter: @arrfab
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 833 bytes
+Desc: OpenPGP digital signature
+URL: <http://lists.centos.org/pipermail/centos-mirror/attachments/20200504/f3f014da/attachment.sig>
+
+From arrfab at centos.org  Mon May  4 07:03:37 2020
+From: arrfab at centos.org (Fabian Arrotin)
+Date: Mon, 4 May 2020 09:03:37 +0200
+Subject: [CentOS-mirror] CentOS Mirror (GE) Georgia - Caucasus Online
+In-Reply-To: <CAJRuwvPM5UcG_+Jd62MqQ0LSMLPnXcnkwgvB0ZquS-7mRdBsoQ@mail.gmail.com>
+References: <CAJRuwvPM5UcG_+Jd62MqQ0LSMLPnXcnkwgvB0ZquS-7mRdBsoQ@mail.gmail.com>
+Message-ID: <890f63ea-8537-9e70-3903-a993823b7dda@centos.org>
+
+On 30/04/2020 20:44, Levan Sopromadze wrote:
+> Hello,
+> 
+> After a long downtime, we fixed our service, please add it to the mirror
+> list.
+> 
+> HTTP: ?https://centos.mirror.co.ge
+> HTTPS: https://centos.mirror.co.ge
+> 
+> Sync schedule: Every 2 hrs
+> Bandwidth: 10gb
+> Location: Georgia
+> Sponsor: Caucasus Online LLC
+> Sponsor URL: http://co.ge
+> IPv4 address to authorize: 185.19.98.106
+> 
+> Also please allow us to sync from:
+> eu-msync.centos.org::CentOS (rsync)
+> 
+> Thank you,
+> 
+Thanks !
+
+Your mirror http://centos.mirror.co.ge/ has been added to the mirrors DB
+It will be listed as a public mirror (and on
+https://mirror-status.centos.org /
+https://www.centos.org/download/mirrors/ ) in the following minutes/hours.
+Your IP address[es] (185.19.98.106 ) has/have been added in the ACL and
+so you should be able to rsync from msync.centos.org in the next ~10min
+
+Kind Regards,
+
+PS : eu-msync.centos.org doesn't exist anymore : it's just a CNAME to
+msync.centos.org nowadays (itself being answered from our GeoIP PDNS setup)
+
+-- 
+Fabian Arrotin
+The CentOS Project | https://www.centos.org
+gpg key: 17F3B7A1 | twitter: @arrfab
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 833 bytes
+Desc: OpenPGP digital signature
+URL: <http://lists.centos.org/pipermail/centos-mirror/attachments/20200504/589d21ba/attachment.sig>
+
+From arrfab at centos.org  Mon May  4 07:14:48 2020
+From: arrfab at centos.org (Fabian Arrotin)
+Date: Mon, 4 May 2020 09:14:48 +0200
+Subject: [CentOS-mirror] New server mirror.cov.ukservers.com
+In-Reply-To: <1837964424.1045919.1588490112011.JavaMail.zimbra@ukservers.com>
+References: <1837964424.1045919.1588490112011.JavaMail.zimbra@ukservers.com>
+Message-ID: <a0623fa0-9bd0-0062-a717-bc2e4b9feed2@centos.org>
+
+On 03/05/2020 09:15, Liam Fleet wrote:
+> HTTP: http://mirror.cov.ukservers.com/centos/
+> 
+> Sync schedule: Every 6 hrs
+> Bandwidth: 10gbps
+> Location: (For U.S. and Canada: also mention the state/province)
+> Sponsor: UK Dedicated Servers?
+> Sponsor URL:?https://www.ukservers.com/
+> IPv4 address to authorize: 94.229.65.150
+> Email contact:?noc at ukservers.com
+> Mirroring AltArch: no?
+> 
+> -- 
+> Liam Fleet
+> UK Dedicated Servers Limited
+> 0800 610 1 620
+> www.ukservers.com
+> 
+Thanks !
+
+Your mirror http://mirror.cov.ukservers.com/centos/ has been added to
+the mirrors DB
+It will be listed as a public mirror (and on
+https://mirror-status.centos.org /
+https://www.centos.org/download/mirrors/ ) in the following minutes/hours.
+Your IP address[es] (94.229.65.150 ) has/have been added in the ACL and
+so you should be able to rsync from msync.centos.org in the next ~10min
+
+Kind Regards,
+
+
+-- 
+Fabian Arrotin
+The CentOS Project | https://www.centos.org
+gpg key: 17F3B7A1 | twitter: @arrfab
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 833 bytes
+Desc: OpenPGP digital signature
+URL: <http://lists.centos.org/pipermail/centos-mirror/attachments/20200504/aa08e861/attachment.sig>
+
+From garryd at comnet.uz  Mon May  4 12:21:03 2020
+From: garryd at comnet.uz (Garri Djavadyan)
+Date: Mon, 04 May 2020 17:21:03 +0500
+Subject: [CentOS-mirror] Limited access to centosx4.centos.org
+In-Reply-To: <d879c4ed-c36e-adf4-054e-605b360241a7@centos.org>
+References: <48f288ee139cb19a8ad623aa4ca9b2f216abc866.camel@comnet.uz>
+ <d879c4ed-c36e-adf4-054e-605b360241a7@centos.org>
+Message-ID: <5bba9afc5320132d3989530d56e64ee984b308b1.camel@comnet.uz>
+
+On Tue, 2020-04-28 at 09:00 +0200, Fabian Arrotin wrote:
+> On 22/04/2020 06:28, Garri Djavadyan wrote:
+> > Hello list!
+> > 
+> > Dear Fabian,
+> > 
+> > Would you mind giving a look at the limits imposed on the host
+> > centosx4.centos.org, which services our rsync requests from the IP
+> > 91.196.76.102 when we access msync.centos.org::CentOS. Below is the
+> > problem output that I received on Apr 22 at 04:00 UTC:
+> > 
+> 
+> That's when we started to (pre)release 7.8.2003 to our own msync
+> network, but still, there are quite a few other msync nodes and you
+> shouldn't come back to only one, except if your local dns resolver
+> doesn't obey our TTL (as it's GeoIP based at our side)
+
+
+Fabian, do you suggest that a sync script should handle the error
+received from an overloaded node and try again 1 min+ later?
+
+Thank you.
+
+
+-- 
+Garri Djavadyan
+iPlus LLC, TM Comnet, Technical Department
+Phone: +99871 2333335 (ext. 27)
+http://comnet.uz
+
+
+From Eric.Holm at dsu.edu  Mon May  4 20:21:45 2020
+From: Eric.Holm at dsu.edu (Holm, Eric)
+Date: Mon, 4 May 2020 20:21:45 +0000
+Subject: [CentOS-mirror] Reregistering mirror at Dakota State University
+Message-ID: <636F0BAC-133E-4C63-AD98-3069D2F8E025@contoso.com>
+
+Hello,
+
+Not sure what happened but our mirror fell out of date and we have been dropped from the mirror list. We have got it back up to date so if we could reregister it that would be great
+HTTP: http://repo.ialab.dsu.edu/centos/
+HTTPS: https://repo.ialab.dsu.edu/centos/
+Sync schedule: Every 4 hrs
+Bandwidth: 2.5Gbps Internet 1/ 10Gbps Internet2
+Location: Madison, SD, US
+Sponsor: Dakota State University
+Sponsor URL: https://dsu.edu
+IPv4 address to authorize: 138.247.115.248
+IPv6 address to authorize: NA
+Email contact: dsu-repo.ialab at dsu.edu<mailto:dsu-repo.ialab at dsu.edu>
+Mirroring AltArch  : no
+
+Thanks,
+Eric
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.centos.org/pipermail/centos-mirror/attachments/20200504/8140a622/attachment.html>
+
+From willen at ifes.edu.br  Tue May  5 01:34:37 2020
+From: willen at ifes.edu.br (Willen Borges Coelho)
+Date: Mon, 4 May 2020 22:34:37 -0300
+Subject: [CentOS-mirror] RES:  Centos mirror re-add - IFES
+In-Reply-To: <1fd52b8a-b8be-1fe2-a61c-623571cae619@centos.org>
+References: <172701d61f25$ce4110f0$6ac332d0$@ifes.edu.br>
+ <1fd52b8a-b8be-1fe2-a61c-623571cae619@centos.org>
+Message-ID: <06b401d6227d$56b75480$0425fd80$@ifes.edu.br>
+
+Thanks Fabian,
+
+I changed FTP to HTTPS.
+
+Regards,
+
+Willen Borges Coelho
+Analista da Tecnologia da Informa??o
+Coordenadoria de Tecnologia da Informa??o
+Instituto Federal do Esp?rito Santo - Campus Cachoeiro de Itapemirim
+28 3526 9027
+
+
+-----Mensagem original-----
+De: Fabian Arrotin [mailto:arrfab at centos.org]
+Enviada em: segunda-feira, 4 de maio de 2020 04:09
+Para: Willen Borges Coelho
+Assunto: Re: [CentOS-mirror] Centos mirror re-add - IFES
+
+On 30/04/2020 21:30, Willen Borges Coelho wrote:
+> Hi,
+>
+>
+>
+> Please re-add the Ifes Centos mirror.
+>
+>
+>
+> Mirror URL:
+>
+> http://mirror.ci.ifes.edu.br/centos/
+>
+> ftp://mirror.ci.ifes.edu.br/centos/
+>
+>
+>
+> Update frequency: Every 3 hours
+>
+> Country: Brazil
+>
+> State: Esp?rito Santo
+>
+> City: Cachoeiro de Itapemirim
+>
+> Bandwidth: 100 mbps
+>
+> Organization: Instituto Federal do Esp?rito Santo
+>
+> Org URL: http://www.ci.ifes.edu.br
+>
+> IPv4 address to authorize: 200.137.80.0/24
+>
+>
+Thanks !
+
+Your mirror http://mirror.ci.ifes.edu.br/centos/ has been added to the
+mirrors DB It will be listed as a public mirror (and on
+https://mirror-status.centos.org / https://www.centos.org/download/mirrors/
+) in the following minutes/hours.
+Your IP address[es] (200.137.80.0/24 ) has/have been added in the ACL and so
+you should be able to rsync from msync.centos.org in the next ~10min
+
+Kind Regards,
+
+PS : we deprecated ftp a long time ago so not added
+
+--
+Fabian Arrotin
+The CentOS Project | https://www.centos.org gpg key: 17F3B7A1 | twitter:
+@arrfab
+
+
+
+________________________________
+
+Esta mensagem (incluindo anexos) cont?m informa??o confidencial destinada a um usu?rio espec?fico e seu conte?do ? protegido por lei. Se voc? n?o ? o destinat?rio correto deve apagar esta mensagem.
+
+O emitente desta mensagem ? respons?vel por seu conte?do e endere?amento.
+Cabe ao destinat?rio cuidar quanto ao tratamento adequado. A divulga??o, reprodu??o e/ou distribui??o sem a devida autoriza??o ou qualquer outra a??o sem conformidade com as normas internas do Ifes s?o proibidas e pass?veis de san??o disciplinar, c?vel e criminal.
+
+From yihan.huang at manage.hkserversolution.com  Wed May  6 20:17:34 2020
+From: yihan.huang at manage.hkserversolution.com (Yihan Huang)
+Date: Thu, 7 May 2020 04:17:34 +0800
+Subject: [CentOS-mirror] Change Mirror IP address and correct location
+Message-ID: <CA+HHk_0QoxBtMwNwi-n5F7mxN2220c_6b3xL7Nd1MdyQ0G67Tw@mail.gmail.com>
+
+Hi,
+
+We have replaced our CentOS Mirror(http://mirrors.codec-cluster.org/centos)
+server with a new IP address 38.39.233.213, please add this to rsync
+whitelist and remove old IP, I also want to point out that our server is
+actually located in Fremont, CA, not OR, please update this information as
+well. Thanks a lot.
+
+-- 
+Regards
+
+Yihan Huang,
+Project Manager
+CodecCloud(HK)Limited
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.centos.org/pipermail/centos-mirror/attachments/20200507/c0bbb75c/attachment.html>
+
+From huutuan at 123host.vn  Sat May  9 14:07:32 2020
+From: huutuan at 123host.vn (=?UTF-8?B?VHXhuqVuIEjhu691?=)
+Date: Sat, 9 May 2020 21:07:32 +0700
+Subject: [CentOS-mirror] Abount sync error
+Message-ID: <CA+ijgJPu1VH+owQuvwAvZOAprUdbveep8FJGtPhL9iKWh=CK_w@mail.gmail.com>
+
+Hi,
+
+Our mirror http://mirrors.123host.vn/ have some trouble about storage and
+has just resolve the issue yesterday. But when we run cron to sync latest
+data it showing a error:
+@ERROR: Unknown module 'CentOS'
+
+I think that issue because our mirror had been delisted.
+
+Could you please check it for me?
+
+Thank you.
+
+Regards.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.centos.org/pipermail/centos-mirror/attachments/20200509/4e1c8184/attachment.html>
+
+From mirror at cambo.host  Sat May  9 22:04:59 2020
+From: mirror at cambo.host (Cambo.Host Mirror Service)
+Date: Sun, 10 May 2020 08:04:59 +1000
+Subject: [CentOS-mirror] Request re-add of Cambodia's only mirror
+Message-ID: <de078af0f19b305c3ae9221633c041b76d7666a9.camel@cambo.host>
+
+Hi Fabian
+
+It looks like our mirror has been removed from the allowed list. We're
+the only ones providing a mirror for Cambodia so please consider
+allowing us back again :)
+
+Thanks,
+Liam
+
+
+
+HTTP: http://mirror.cambo.host/centos/ 
+RSYNC: rsync://mirror.cambo.host/centos/ 
+
+Sync schedule: 3 hours
+Bandwidth: 1Gbps for domestic connections (limited to 100Mbps
+international)
+Location: Phnom Penh, Cambodia
+Sponsor: Cambo.Host Ltd
+Sponsor URL: https://cambo.host
+IPv4 address to authorize: 103.104.60.62
+IPv6 address to authorize: 2402:4c0:100:1::2d2:276c
+Email contact: mirror at cambo.host
+Mirroring AltArch: no, maybe later
+
+
